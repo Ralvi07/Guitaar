@@ -1,3 +1,4 @@
+// Represents a supplier in the inventory model.
 package Model;
 
 import java.io.DataInputStream;

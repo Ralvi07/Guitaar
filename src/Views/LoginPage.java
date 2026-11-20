@@ -1,3 +1,4 @@
+// Defines the Java application's sign-in screen.
 package Views;
 
 import java.io.IOException;

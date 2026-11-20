@@ -1,3 +1,4 @@
+// Defines the Java interface for viewing and editing inventory items.
 package Views;
 
 import java.util.ArrayList;

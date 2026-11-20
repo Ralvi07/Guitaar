@@ -1,3 +1,4 @@
+// Holds the collection of bill records used by the Java application's data layer.
 package DAOS;
 
 import java.io.DataInputStream;

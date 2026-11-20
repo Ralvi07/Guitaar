@@ -1,3 +1,4 @@
+// Defines the Java interface for working with items on a bill.
 package Views;
 
 import javafx.collections.FXCollections;

@@ -1,3 +1,4 @@
+// Represents a bill in the Java application.
 package Model;
 
 import javafx.beans.property.IntegerProperty;

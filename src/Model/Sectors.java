@@ -1,3 +1,4 @@
+// Represents the sectors used to group inventory records.
 package Model;
 
 import java.io.DataInputStream;

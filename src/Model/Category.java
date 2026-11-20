@@ -1,3 +1,4 @@
+// Represents an inventory category.
 package Model;
 
 import java.io.DataInputStream;

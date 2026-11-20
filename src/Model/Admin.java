@@ -1,3 +1,4 @@
+// Defines the administrator role in the Java user model.
 package Model;
 
 public class Admin extends User{

@@ -1,3 +1,4 @@
+// Connects the Java application's views to its inventory and billing models.
 package Controller;
 //TO DO SUPPLIER NAME CHECK AT CELL LISTENERS
 //TO DO CATEGORY NAME CHECK AT CELL LISTENERS

@@ -1,3 +1,4 @@
+// Defines the Java interface for viewing a receipt.
 package Views;
 
 import java.util.ArrayList;

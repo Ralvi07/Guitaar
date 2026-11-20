@@ -1,3 +1,4 @@
+// Represents a product in the inventory.
 package Model;
 
 import java.io.DataInputStream;

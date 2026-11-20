@@ -1,3 +1,4 @@
+// Defines the shared user model for the Java application's roles.
 package Model;
 
 

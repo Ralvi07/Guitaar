@@ -1,3 +1,4 @@
+// Defines the manager role in the Java user model.
 package Model;
 
 public class Manager extends User {

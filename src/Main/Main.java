@@ -1,3 +1,4 @@
+// Provides the Java application entry point.
 package Main;
 
 import java.io.IOException;

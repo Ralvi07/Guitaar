@@ -1,3 +1,4 @@
+// Loads and saves Java billing records and writes receipt output.
 package DAOS;
 
 import java.io.DataInputStream;
@@ -15,6 +16,7 @@ import Model.Bills;
 
 public class FileHandler {
 
+// Keep the in-memory bills alongside the on-disk storage handler.
 private final BillItem RamLoad;
 private final boolean Check;
 public FileHandler() throws IOException{
@@ -51,6 +53,7 @@ public void LoadStorage() throws ClassNotFoundException, IOException {
 public void PrintBills(List<Bills> bills) throws IOException {
 	LocalDate today = LocalDate.now();
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+    // Append a human-readable receipt identified by the current bill number.
     FileWriter writer = new FileWriter("RecieptNr"+bills.getFirst().getActualID()+".txt", true);
     writer.write("Date: " + today.format(formatter) + "\n");
     double wow=0;

@@ -1,3 +1,4 @@
+// Defines the cashier role in the Java user model.
 package Model;
 
 public class Cashier extends User {
